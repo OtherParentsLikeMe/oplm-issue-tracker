@@ -1,0 +1,46 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  padding: 2rem;
+  background: #f7f7f7;
+}
+
+header {
+  max-width: 900px;
+  margin: auto;
+}
+
+.actions {
+  margin: 1rem 0 2rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.6rem 1rem;
+  margin-right: 0.5rem;
+  text-decoration: none;
+  border-radius: 6px;
+  background: #ddd;
+  color: #000;
+}
+
+.button.primary {
+  background: #0066cc;
+  color: #fff;
+}
+
+#issues {
+  max-width: 900px;
+  margin: auto;
+}
+
+.issue {
+  background: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+}
+
+.issue h3 {
+  margin: 0 0 0.3rem;
+}
